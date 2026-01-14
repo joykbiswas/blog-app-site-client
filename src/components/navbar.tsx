@@ -57,12 +57,13 @@ const Navbar = ({
     url: "https://www.shadcnblocks.com",
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
     alt: "logo",
-    title: "Shadcnblocks.com",
+    title: "Blog site",
   },
   menu = [
     { title: "Home", url: "/" },
     { title: "Blog", url: "/blogs" },
     { title: "About", url: "/about" },
+    { title: "Dashboard", url: "/dashboard" },
   ],
   auth = {
     login: { title: "Login", url: "/login" },
